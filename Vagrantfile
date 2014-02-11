@@ -77,8 +77,11 @@ Vagrant.configure("2") do |config|
             :db_search_query => 'node_group_tag:database',
             :db_ip_attribute => 'vagrant.ip'
           },
+          :pin_version => true,
+          :version => '2014.1.dev13.g788d1ea-1',
           :queue => {
-            :enable => true
+            :enable => true,
+            :rabbit_ha_queues => true
           }
         }
       }
@@ -109,8 +112,11 @@ Vagrant.configure("2") do |config|
             :db_search_query => 'node_group_tag:database',
             :db_ip_attribute => 'vagrant.ip'
           },
+          :pin_version => true,
+          :version => '2014.1.dev13.g788d1ea-1',
           :queue => {
-            :enable => true
+            :enable => true,
+            :rabbit_ha_queues => true
           }
         }
       }
