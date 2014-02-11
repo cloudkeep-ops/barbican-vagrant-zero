@@ -1,5 +1,5 @@
 # -*- mode: ruby -*-
-# vi: set ft=ruby :git commit -m
+# vi: set ft=ruby :
 Vagrant.require_plugin "vagrant-chef-zero"
 Vagrant.require_plugin "vagrant-berkshelf"
 
