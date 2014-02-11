@@ -1,5 +1,5 @@
 # -*- mode: ruby -*-
-# vi: set ft=ruby :
+# vi: set ft=ruby :git commit -m
 Vagrant.require_plugin "vagrant-chef-zero"
 Vagrant.require_plugin "vagrant-berkshelf"
 
@@ -76,6 +76,9 @@ Vagrant.configure("2") do |config|
             :enable_db_search => true,
             :db_search_query => 'node_group_tag:database',
             :db_ip_attribute => 'vagrant.ip'
+          },
+          :queue => {
+            :enable => true
           }
         }
       }
@@ -105,6 +108,9 @@ Vagrant.configure("2") do |config|
             :enable_db_search => true,
             :db_search_query => 'node_group_tag:database',
             :db_ip_attribute => 'vagrant.ip'
+          },
+          :queue => {
+            :enable => true
           }
         }
       }
