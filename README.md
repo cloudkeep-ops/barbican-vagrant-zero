@@ -14,3 +14,5 @@ $ vagrant plugin install vagrant-berkshelf
 ```
 
 Then simply vagrant up!
+
+Tested with versions up to vagrant 1.4.3 and berkshelf 2.0.14.
