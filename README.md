@@ -1,7 +1,7 @@
 barbican-vagrant-zero
 =====================
 
-Vagrantfile to spin up a Barbican cluster using Chef Zero
+Vagrantfile/Berksfile to spin up a Barbican cluster with a single command (vagrant up).  The cluster includes an api node, a queue node, a worker node, and a database node.  The vagrantfile utlizes Chef Zero, and relies on Berkshelf to pull down all the necessary cookbooks.
 
 Install the following plugins in exactly this order:
 
