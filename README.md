@@ -8,7 +8,6 @@ The cluster will consist of four virtual machines:
 * Worker node 
 * Queue node (RabbitMQ)
 * Database node (Postgresql)
-* 
 
 **Note:** We are assuming you already have [Vagrant](http://docs.vagrantup.com/v2/getting-started/index.html) 1.4.3 installed and working. Newer versions of Vagrant are not currently compatible with the plugins we will be using. You will want to ensure you have a computer with enough RAM to run four virtual machines, 8GB of RAM should be enough but you can probably get away with 4GB of RAM.
 
