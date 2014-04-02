@@ -40,9 +40,18 @@ Wait for the virtual machines to fully load. At that point you can access each m
 $ ssh [db|queue|api|worker]
 ```
 
-**Example, ssh into the worker node:**
+**Example, SSH into the worker node:**
 
 ```
 $ ssh worker
 ```
 
+The nodes on the cluster will be assigned the following IPv4 addresses:
+
+
+Node Name     | IPv4 Address
+------------- | -------------
+Queue         | 192.168.2.2
+DB            | 192.168.2.3
+API           | 192.168.2.4
+Worker        | 192.168.2.5
