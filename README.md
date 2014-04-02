@@ -38,7 +38,7 @@ Wait for the virtual machines to fully load. At that point you can access each m
 
 ```
 $ ssh [db|queue|api|worker]
-``
+```
 
 **Example, ssh into the worker node:**
 
