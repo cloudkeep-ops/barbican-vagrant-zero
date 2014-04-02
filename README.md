@@ -31,3 +31,18 @@ $ git clone https://github.com/cloudkeep-ops/barbican-vagrant-zero.git
 $ cd barbican-vagrant-zero
 $ vagrant up
 ```
+
+### Accessing the Nodes in the Cluster
+
+Wait for the virtual machines to fully load. At that point you can access each machine via SSH:
+
+```
+$ ssh [db|queue|api|worker]
+``
+
+**Example, ssh into the worker node:**
+
+```
+$ ssh worker
+```
+
