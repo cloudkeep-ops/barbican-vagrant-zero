@@ -17,8 +17,8 @@ Install the following plugins in this order:
 
 ```
 $ vagrant plugin install vagrant-omnibus
-$ vagrant plugin install vagrant-chef-zero
 $ vagrant plugin install vagrant-berkshelf
+$ vagrant plugin install vagrant-chef-zero
 ```
 
 ### Clone Repo and Start the Cluster
